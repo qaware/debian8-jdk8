@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/qaware-oss/registry/base%3Adebian8-jdk8/images/download.svg) ](https://bintray.com/qaware-oss/registry/base%3Adebian8-jdk8/_latestVersion)
+
 # Debian 8 with JDK 8
 
 This repository contains the `Dockerfile` for the `debian8-jdk8` image. It is
