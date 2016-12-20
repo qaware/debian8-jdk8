@@ -22,7 +22,7 @@ docker export <CONTAINER_ID> | docker import - qaware-oss-docker-registry.bintra
 
 `<IMAGE_ID>` - The created image ID name.
 `<CONTAINER_ID>` - The container ID echoed after the Docker run command.
-`<VERSION>` - Should be the actual Java version, like 8u77. When not specified
+`<VERSION>` - Should be the actual Java version, like 8u112. When not specified
 "latest" will be used as the Bintray version name.
 
 ## Pushing image to Bintray
@@ -38,7 +38,7 @@ Docker v1.6 and above):
 ```shell
 docker push qaware-oss-docker-registry.bintray.io/base/debian8-jdk8:<VERSION>
 ```
-`<VERSION>` - Should be the actual Java version, like 8u77. When not specified
+`<VERSION>` - Should be the actual Java version, like 8u112. When not specified
 "latest" will be used as the Bintray version name.
 
 Alternatively you can also use Gradle to upload the Docker images to Bintray.
@@ -53,7 +53,7 @@ client pull command to download an image (please use Docker v1.6 and above):
 ```shell
 docker pull qaware-oss-docker-registry.bintray.io/base/debian8-jdk8:<VERSION>
 ```
-`<VERSION>` - Optional. Should be the actual Java version like 8u77. When not specified
+`<VERSION>` - Optional. Should be the actual Java version like 8u112. When not specified
 "latest" will be used as the Bintray version name.
 
 ## License
